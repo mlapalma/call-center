@@ -1,5 +1,8 @@
 package model;
 
+/**
+ * The type Customer. Who can initiate a call to a CallCenter
+ */
 public class Customer {
 
 	private long id;

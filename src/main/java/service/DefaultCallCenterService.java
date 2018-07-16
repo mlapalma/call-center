@@ -8,6 +8,11 @@ import model.Manager;
 import model.Operator;
 import model.Supervisor;
 
+/**
+ * The type Default call center service.
+ * The call center service is encharged of find free operators, supervisors or managers
+ * It will need a CallCenter object in order to find this Agents
+ */
 public class DefaultCallCenterService implements CallCenterService {
 
 	private CallCenter callCenter;

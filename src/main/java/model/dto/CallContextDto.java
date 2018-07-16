@@ -4,6 +4,10 @@ import model.Call;
 import model.Customer;
 import model.Employee;
 
+/**
+ * The type Call context dto.
+ * This DTO retrieves a call processed context with information of customer, answerer and call itself
+ */
 public class CallContextDto {
 	private Call call;
 	private Employee answerer;
@@ -29,6 +33,11 @@ public class CallContextDto {
 
 	public Customer getCustomer() {
 		return customer;
+	}
+
+	@Override
+	public String toString() {
+		return "CallContextDto{" + "call=" + call + ", answerer=" + answerer + ", customer=" + customer + '}';
 	}
 
 	public static final class Builder {
@@ -57,10 +66,5 @@ public class CallContextDto {
 		public CallContextDto build() {
 			return new CallContextDto(this);
 		}
-	}
-
-	@Override
-	public String toString() {
-		return "CallContextDto{" + "call=" + call + ", answerer=" + answerer + ", customer=" + customer + '}';
 	}
 }

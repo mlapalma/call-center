@@ -5,6 +5,10 @@ import java.util.logging.Logger;
 import model.*;
 import model.dto.CallContextDto;
 
+/**
+ * The type Default dispatcher.
+ * This dispatcher is the object who manage calls
+ */
 public class DefaultDispatcher implements Dispatcher {
 
 	private static final int CALLS_LIMIT = 10;

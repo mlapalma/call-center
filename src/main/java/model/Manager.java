@@ -1,5 +1,9 @@
 package model;
 
+/**
+ * The type Manager.
+ * Managers are on top of supervisors
+ */
 public class Manager extends Employee {
 
 	public Manager(long id, String firstName, String lastName) {

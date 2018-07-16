@@ -2,6 +2,11 @@ package model;
 
 import util.RandomGenerator;
 
+/**
+ * The type Call.
+ * A Call is initiated by a customer identified by callerId
+ * This call will have a Status showing its results
+ */
 public class Call {
 
 	private static final int MINUMUM_CALL_DURATION_MS = 5001;
@@ -12,7 +17,7 @@ public class Call {
 
 	public Call(long callerId) {
 		this.callerId = callerId;
-		this.duration = (long) RandomGenerator.getRandomNumber(MINUMUM_CALL_DURATION_MS,MAXIMUM_CALL_DURATION_MS);
+		this.duration = (long) RandomGenerator.getRandomNumber(MINUMUM_CALL_DURATION_MS, MAXIMUM_CALL_DURATION_MS);
 	}
 
 	public CallStatus getStatus() {
@@ -33,7 +38,6 @@ public class Call {
 
 	@Override
 	public String toString() {
-		return "Call{" + "callerId=" + callerId + ", status=" + status + ", duration=" + duration
-				+ '}';
+		return "Call{" + "callerId=" + callerId + ", status=" + status + ", duration=" + duration + '}';
 	}
 }

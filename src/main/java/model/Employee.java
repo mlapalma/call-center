@@ -1,6 +1,10 @@
 package model;
 
-public abstract class Employee implements CallAgent{
+/**
+ * The type Employee.
+ * An Employee in this company must implement CallAgent in order to be able to answer calls
+ */
+public abstract class Employee implements CallAgent {
 
 	private long id;
 	private String firstName;
@@ -41,12 +45,12 @@ public abstract class Employee implements CallAgent{
 		return available;
 	}
 
-	public String getFullName(){
-		return String.format("%s %s",getFirstName(),getLastName());
-	}
-
 	public synchronized void setAvailable(boolean available) {
 		this.available = available;
+	}
+
+	public String getFullName() {
+		return String.format("%s %s", getFirstName(), getLastName());
 	}
 
 	@Override

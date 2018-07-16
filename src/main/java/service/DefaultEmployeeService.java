@@ -3,6 +3,11 @@ package service;
 import model.Call;
 import model.Employee;
 
+/**
+ * The type Default employee service.
+ * This service allows consumers to assign and release calls to employees
+ * It is used by the dispatcher
+ */
 public class DefaultEmployeeService implements EmployeeService {
 
 	private Employee employee;

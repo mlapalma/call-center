@@ -4,6 +4,20 @@
     <list default="true" id="3fff84cb-8285-4621-89ad-acf543d37220" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Call.java" afterPath="$PROJECT_DIR$/src/main/java/model/Call.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/CallAgent.java" afterPath="$PROJECT_DIR$/src/main/java/model/CallAgent.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/CallCenter.java" afterPath="$PROJECT_DIR$/src/main/java/model/CallCenter.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/CallStatus.java" afterPath="$PROJECT_DIR$/src/main/java/model/CallStatus.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Customer.java" afterPath="$PROJECT_DIR$/src/main/java/model/Customer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/model/Employee.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Manager.java" afterPath="$PROJECT_DIR$/src/main/java/model/Manager.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Operator.java" afterPath="$PROJECT_DIR$/src/main/java/model/Operator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Supervisor.java" afterPath="$PROJECT_DIR$/src/main/java/model/Supervisor.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dto/CallContextDto.java" afterPath="$PROJECT_DIR$/src/main/java/model/dto/CallContextDto.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/DefaultCallCenterService.java" afterPath="$PROJECT_DIR$/src/main/java/service/DefaultCallCenterService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/DefaultCustomerServiceCallable.java" afterPath="$PROJECT_DIR$/src/main/java/service/DefaultCustomerServiceCallable.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/DefaultDispatcher.java" afterPath="$PROJECT_DIR$/src/main/java/service/DefaultDispatcher.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/DefaultEmployeeService.java" afterPath="$PROJECT_DIR$/src/main/java/service/DefaultEmployeeService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,77 +102,24 @@
       <file leaf-file-name="CallCenter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/CallCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+            <state relative-caret-position="75">
+              <caret line="5" column="76" lean-forward="false" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
               <folding>
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DispatcherTests.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/service/DispatcherTests.java">
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2396">
-              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="671">
+              <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1726#1727#0" expanded="true" />
-                <element signature="e#1773#1774#0" expanded="true" />
-                <element signature="e#1867#1877#0" expanded="true" />
-                <element signature="e#2513#2519#0" expanded="true" />
-                <element signature="e#5709#5733#0" expanded="true" />
-                <element signature="e#6636#6660#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultDispatcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/DefaultDispatcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="109" column="25" lean-forward="false" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultCallCenterService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/service/DefaultCallCenterService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Call.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Call.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding>
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#976#977#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,8 +128,28 @@
       <file leaf-file-name="CallCenterService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/CallCenterService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="60">
+              <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallAgent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/CallAgent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Supervisor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Supervisor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -212,27 +193,27 @@
         <option value="$PROJECT_DIR$/src/test/java/services/DispatcherIntegrationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/DispatcherIntegrationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/RandomGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Call.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/EmployeeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/CallAgent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/CallStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Manager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Operator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Supervisor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/dto/CallContextDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/DefaultCustomerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/DefaultCustomerServiceThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/DefaultCustomerServiceCallable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/CallCenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/Dispatcher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/DefaultEmployeeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/CallCenterService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/DefaultDispatcher.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/DispatcherTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dto/CallContextDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Call.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/CallAgent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/CallCenter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/CallStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Manager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Operator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Supervisor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/CallCenterService.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/DefaultCallCenterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/DefaultCustomerServiceCallable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/DefaultDispatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/DefaultEmployeeService.java" />
       </list>
     </option>
   </component>
@@ -607,7 +588,7 @@
       <updated>1531258869612</updated>
       <workItem from="1531258873575" duration="10787000" />
       <workItem from="1531342164492" duration="6432000" />
-      <workItem from="1531598311740" duration="20716000" />
+      <workItem from="1531598311740" duration="21613000" />
     </task>
     <servers />
   </component>
@@ -644,7 +625,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37935000" />
+    <option name="totallyTimeSpent" value="38832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -723,7 +704,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/service/DefaultDispatcher.java</url>
-          <line>55</line>
+          <line>59</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
@@ -739,10 +720,10 @@
           <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -752,12 +733,8 @@
         <state relative-caret-position="1080">
           <caret line="88" column="16" lean-forward="false" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
           <folding>
-            <element signature="e#758#759#0" expanded="false" />
-            <element signature="e#823#824#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-            <element signature="e#966#967#0" expanded="false" />
-            <element signature="e#997#998#0" expanded="false" />
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -767,14 +744,14 @@
         <state relative-caret-position="225">
           <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding>
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -800,8 +777,8 @@
         <state relative-caret-position="255">
           <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -811,8 +788,8 @@
         <state relative-caret-position="30">
           <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
           <folding>
-            <element signature="e#117#118#0" expanded="false" />
-            <element signature="e#154#155#0" expanded="false" />
+            <element signature="e#184#185#0" expanded="false" />
+            <element signature="e#221#222#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -822,8 +799,8 @@
         <state relative-caret-position="255">
           <caret line="17" column="36" lean-forward="false" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -843,8 +820,8 @@
         <state relative-caret-position="315">
           <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -865,10 +842,10 @@
           <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -910,14 +887,6 @@
             <element signature="e#5709#5733#0" expanded="true" />
             <element signature="e#6636#6660#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CallCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,88 +1002,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/CallAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/CallStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#758#759#0" expanded="false" />
-            <element signature="e#823#824#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-            <element signature="e#966#967#0" expanded="false" />
-            <element signature="e#997#998#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Operator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Supervisor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/DefaultCustomerServiceCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#559#560#0" expanded="false" />
-            <element signature="e#612#613#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#693#694#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1126,31 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/DefaultEmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Call.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1159,10 +1026,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/CallCenterService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/DispatcherTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1726#1727#0" expanded="true" />
+            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1867#1877#0" expanded="true" />
+            <element signature="e#2513#2519#0" expanded="true" />
+            <element signature="e#5709#5733#0" expanded="true" />
+            <element signature="e#6636#6660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dto/CallContextDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="8" column="101" lean-forward="false" selection-start-line="8" selection-start-column="101" selection-end-line="8" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Call.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/CallAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/CallCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="76" lean-forward="false" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+          <folding>
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/CallStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -1177,62 +1128,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/CallCenter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Supervisor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="36" column="4" lean-forward="false" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-          <folding>
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/DefaultDispatcher.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/CallCenterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="109" column="25" lean-forward="false" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dto/CallContextDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="62" column="18" lean-forward="false" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        <state relative-caret-position="60">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/DefaultCallCenterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="105">
+          <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
           <folding>
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/DispatcherTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CallCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2396">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/DefaultEmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/DefaultCustomerServiceCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="82" lean-forward="false" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/DefaultDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1726#1727#0" expanded="true" />
-            <element signature="e#1773#1774#0" expanded="true" />
-            <element signature="e#1867#1877#0" expanded="true" />
-            <element signature="e#2513#2519#0" expanded="true" />
-            <element signature="e#5709#5733#0" expanded="true" />
-            <element signature="e#6636#6660#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding>
+            <element signature="e#976#977#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
           </folding>
         </state>
       </provider>
