@@ -30,4 +30,5 @@ El test que ejecuta el escenario es "testFullScenario" que realiza el siguiente 
 
 Tanto para el caso de "Dispatcher sobre capacidad" y "No se encuentran operadores libres para atender la llamada" la decisión fué reflejar dichas situaciones en el campo "estado" de la llamada. Se pudo haber utilizado excepciones, pero al ser casos definidos dentro del proceso de negocio no se recomienda gestionarlos con esta herramienta.
 
-La solución elegida es entonces informar al cliente de estas situaciones y que quien consuma la API decida si esperar y reintentar en unos segundos o terminar la llamada.    
+La solución elegida es entonces informar al cliente de estas situaciones y que quien consuma la API decida si esperar y reintentar en unos segundos o terminar la llamada.   
+ 

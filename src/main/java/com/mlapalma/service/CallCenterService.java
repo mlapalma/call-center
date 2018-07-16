@@ -1,9 +1,9 @@
-package service;
+package com.mlapalma.service;
 
 import java.util.Optional;
-import model.Manager;
-import model.Operator;
-import model.Supervisor;
+import com.mlapalma.model.Manager;
+import com.mlapalma.model.Operator;
+import com.mlapalma.model.Supervisor;
 
 public interface CallCenterService {
 

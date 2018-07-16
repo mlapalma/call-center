@@ -1,9 +1,9 @@
-package service;
+package com.mlapalma.service;
 
 import java.util.concurrent.Callable;
-import model.Call;
-import model.Customer;
-import model.dto.CallContextDto;
+import com.mlapalma.model.Call;
+import com.mlapalma.model.Customer;
+import com.mlapalma.model.dto.CallContextDto;
 
 /**
  * The type Default customer service callable.

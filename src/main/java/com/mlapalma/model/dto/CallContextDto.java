@@ -1,8 +1,8 @@
-package model.dto;
+package com.mlapalma.model.dto;
 
-import model.Call;
-import model.Customer;
-import model.Employee;
+import com.mlapalma.model.Call;
+import com.mlapalma.model.Customer;
+import com.mlapalma.model.Employee;
 
 /**
  * The type Call context dto.

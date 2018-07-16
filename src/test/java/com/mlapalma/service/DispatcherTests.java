@@ -1,4 +1,4 @@
-package service;
+package com.mlapalma.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -6,14 +6,16 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.concurrent.*;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 import java.util.stream.Collectors;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
-import model.*;
-import model.dto.CallContextDto;
+import com.mlapalma.model.*;
+import com.mlapalma.model.dto.CallContextDto;
 
 @RunWith(JUnit4.class)
 public class DispatcherTests {
@@ -147,41 +149,6 @@ public class DispatcherTests {
 	}
 
 	@Test
-	public void dispatcherShouldAssignOneCallToFirstOperator() {
-		Customer customer = customers.get(0);
-		Call call = calls.get(0);
-		Dispatcher dispatcher = new DefaultDispatcher(callCenterService);
-
-		CallContextDto callContextDto = dispatcher.dispatchCall(call, customer);
-
-		assertEquals("Juan Perez", callContextDto.getAnswerer().getFullName());
-	}
-
-	@Test
-	public void dispatcherShouldAssignTwoCallsToFirstsTwoOperators() throws ExecutionException, InterruptedException {
-		ExecutorService pool = Executors.newFixedThreadPool(2);
-
-		Customer customer1 = customers.get(0);
-		Customer customer2 = customers.get(1);
-		Call call1 = calls.get(0);
-		Call call2 = calls.get(1);
-		Dispatcher dispatcher1 = new DefaultDispatcher(callCenterService);
-		Set<Future<CallContextDto>> set = new HashSet<Future<CallContextDto>>();
-		Callable<CallContextDto> customerService1 = new DefaultCustomerServiceCallable(customer1, dispatcher1, call1);
-		Callable<CallContextDto> customerService2 = new DefaultCustomerServiceCallable(customer2, dispatcher1, call2);
-		Future<CallContextDto> futureTask1 = pool.submit(customerService1);
-		Future<CallContextDto> futureTask2 = pool.submit(customerService2);
-
-		set.add(futureTask1);
-		set.add(futureTask2);
-		CallContextDto callContextDto1 = futureTask1.get();
-		CallContextDto callContextDto2 = futureTask2.get();
-
-		assertEquals("Juan Perez", callContextDto1.getAnswerer().getFullName());
-		assertEquals("Damian Sanchez", callContextDto2.getAnswerer().getFullName());
-	}
-
-	@Test
 	public void testFullScenario() {
 
 		ExecutorService pool = Executors.newFixedThreadPool(12);
@@ -206,6 +173,13 @@ public class DispatcherTests {
 		}).collect(Collectors.toList());
 
 		//This will print call summary
+		//CallCenter have 8 agents: 5 operators, 2 supervisors, 1 manager.
+		//In the context of process 12 calls the results must be:
+		//5 calls will be answered by operators.
+		//2 calls will be answered by supervisors.
+		//1 call will be answered by manager
+		//2 calls will be unnatended because of unavailable agents
+		//2 last calls will be unnatended by dispatcher overflow capacity
 		callContextDtos.stream().forEach(item -> {
 			String message = String
 					.format("Customer: %s, Status: %s", item.getCustomer().getName(), item.getCall().getStatus());

@@ -1,9 +1,9 @@
-package service;
+package com.mlapalma.service;
 
 import java.util.Optional;
 import java.util.logging.Logger;
-import model.*;
-import model.dto.CallContextDto;
+import com.mlapalma.model.*;
+import com.mlapalma.model.dto.CallContextDto;
 
 /**
  * The type Default dispatcher.
@@ -111,8 +111,8 @@ public class DefaultDispatcher implements Dispatcher {
 		return employeeService.assignCall(call);
 	}
 
-	private synchronized boolean finishCall(Call call, Employee employee) {
+	private synchronized void finishCall(Call call, Employee employee) {
 		EmployeeService employeeService = new DefaultEmployeeService(employee);
-		return employeeService.releaseCall(call);
+		employeeService.releaseCall(call);
 	}
 }

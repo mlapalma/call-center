@@ -1,6 +1,6 @@
-package service;
+package com.mlapalma.service;
 
-import model.dto.CallContextDto;
+import com.mlapalma.model.dto.CallContextDto;
 
 public interface CustomerService {
 

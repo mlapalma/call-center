@@ -1,6 +1,6 @@
-package model;
+package com.mlapalma.model;
 
-import util.RandomGenerator;
+import com.mlapalma.util.RandomMilisecondsGenerator;
 
 /**
  * The type Call.
@@ -17,7 +17,8 @@ public class Call {
 
 	public Call(long callerId) {
 		this.callerId = callerId;
-		this.duration = (long) RandomGenerator.getRandomNumber(MINUMUM_CALL_DURATION_MS, MAXIMUM_CALL_DURATION_MS);
+		this.duration = (long) RandomMilisecondsGenerator
+				.getRandomNumber(MINUMUM_CALL_DURATION_MS, MAXIMUM_CALL_DURATION_MS);
 	}
 
 	public CallStatus getStatus() {

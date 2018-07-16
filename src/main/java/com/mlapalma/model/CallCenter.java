@@ -1,4 +1,4 @@
-package model;
+package com.mlapalma.model;
 
 import java.util.List;
 

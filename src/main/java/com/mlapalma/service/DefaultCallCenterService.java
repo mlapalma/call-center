@@ -1,12 +1,12 @@
-package service;
+package com.mlapalma.service;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
-import model.CallCenter;
-import model.Manager;
-import model.Operator;
-import model.Supervisor;
+import com.mlapalma.model.CallCenter;
+import com.mlapalma.model.Manager;
+import com.mlapalma.model.Operator;
+import com.mlapalma.model.Supervisor;
 
 /**
  * The type Default call center service.

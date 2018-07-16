@@ -1,8 +1,8 @@
-package util;
+package com.mlapalma.util;
 
 import java.util.Random;
 
-public class RandomGenerator {
+public class RandomMilisecondsGenerator {
 
 	public static int getRandomNumber(int min, int max) {
 

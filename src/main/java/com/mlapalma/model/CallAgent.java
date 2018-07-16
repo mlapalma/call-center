@@ -1,4 +1,4 @@
-package model;
+package com.mlapalma.model;
 
 /**
  * A call agent is someone who can answer a call

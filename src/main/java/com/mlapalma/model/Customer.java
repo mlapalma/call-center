@@ -1,4 +1,4 @@
-package model;
+package com.mlapalma.model;
 
 /**
  * The type Customer. Who can initiate a call to a CallCenter

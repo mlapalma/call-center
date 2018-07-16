@@ -1,7 +1,7 @@
-package service;
+package com.mlapalma.service;
 
-import model.Call;
-import model.Employee;
+import com.mlapalma.model.Call;
+import com.mlapalma.model.Employee;
 
 /**
  * The type Default employee service.
@@ -29,15 +29,8 @@ public class DefaultEmployeeService implements EmployeeService {
 	}
 
 	@Override
-	public boolean releaseCall(Call call) {
-		boolean callReleased;
-		if (!employee.isAvailable()) {
-			employee.setAvailable(true);
-			callReleased = true;
-		} else {
-			callReleased = false;
-		}
-		return callReleased;
+	public void releaseCall(Call call) {
+		employee.setAvailable(true);
 	}
 
 }
