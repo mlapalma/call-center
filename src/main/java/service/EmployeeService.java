@@ -1,8 +1,11 @@
 package service;
 
+import model.Call;
+import model.CallStatus;
+
 public interface EmployeeService {
 
-	boolean assignCall();
-	boolean releaseCall();
+	boolean assignCall(Call call);
+	boolean releaseCall(Call call);
 
 }

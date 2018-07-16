@@ -1,9 +1,11 @@
 package service;
 
-import model.CallStatus;
+import model.Call;
+import model.Customer;
+import model.dto.CallContextDto;
 
 public interface Dispatcher {
 
-	public CallStatus dispatchCall();
+	CallContextDto dispatchCall(Call call, Customer customer);
 
 }

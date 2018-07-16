@@ -13,86 +13,51 @@ public abstract class Employee implements CallAgent{
 		this.lastName = lastName;
 	}
 
-	/**
-	 * Getter for property 'id'.
-	 *
-	 * @return Value for property 'id'.
-	 */
 	public long getId() {
 		return id;
 	}
 
-	/**
-	 * Setter for property 'id'.
-	 *
-	 * @param id Value to set for property 'id'.
-	 */
 	public void setId(long id) {
 		this.id = id;
 	}
 
-	/**
-	 * Getter for property 'firstName'.
-	 *
-	 * @return Value for property 'firstName'.
-	 */
 	public String getFirstName() {
 		return firstName;
 	}
 
-	/**
-	 * Setter for property 'firstName'.
-	 *
-	 * @param firstName Value to set for property 'firstName'.
-	 */
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
 
-	/**
-	 * Getter for property 'lastName'.
-	 *
-	 * @return Value for property 'lastName'.
-	 */
 	public String getLastName() {
 		return lastName;
 	}
 
-	/**
-	 * Setter for property 'lastName'.
-	 *
-	 * @param lastName Value to set for property 'lastName'.
-	 */
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
 
-	/**
-	 * Getter for property 'available'.
-	 *
-	 * @return Value for property 'available'.
-	 */
 	public boolean isAvailable() {
 		return available;
 	}
 
-	/**
-	 * Setter for property 'available'.
-	 *
-	 * @param available Value to set for property 'available'.
-	 */
-	public void setAvailable(boolean available) {
+	public String getFullName(){
+		return String.format("%s %s",getFirstName(),getLastName());
+	}
+
+	public synchronized void setAvailable(boolean available) {
 		this.available = available;
 	}
 
 	@Override
-	public void answerCall() {
+	public void answerCall(Call call) {
 		this.setAvailable(false);
 	}
 
 	@Override
-	public void finishCall() {
+	public void finishCall(Call call) {
 		this.setAvailable(true);
+		call.setStatus(CallStatus.FINISHED);
 	}
 
 	@Override

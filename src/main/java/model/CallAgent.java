@@ -2,8 +2,8 @@ package model;
 
 public interface CallAgent {
 
-	void answerCall();
+	void answerCall(Call call);
 
-	void finishCall();
+	void finishCall(Call call);
 
 }

@@ -8,7 +8,9 @@ import model.Supervisor;
 public interface CallCenterService {
 
 	Optional<Supervisor> findFreeSupervisor();
+
 	Optional<Operator> findFreeOperator();
-	Optional<Manager> findManager();
+
+	Optional<Manager> findFreeManager();
 
 }

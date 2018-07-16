@@ -16,19 +16,32 @@ public class DefaultCallCenterService implements CallCenterService {
 		this.callCenter = callCenter;
 	}
 
-	public Optional<Supervisor> findFreeSupervisor(){
-		List<Supervisor> supervisorList = callCenter.getSupervisors().stream().filter(Supervisor::isAvailable).collect(Collectors.toList());
-		return Optional.ofNullable(supervisorList.get(0));
+	public Optional<Supervisor> findFreeSupervisor() {
+		Optional<Supervisor> supervisor = Optional.empty();
+		List<Supervisor> freeSupervisors = callCenter.getSupervisors().stream().filter(Supervisor::isAvailable)
+				.collect(Collectors.toList());
+		if (!freeSupervisors.isEmpty()) {
+			supervisor = Optional.of(freeSupervisors.get(0));
+		}
+		return supervisor;
 	}
 
-	public Optional<Operator> findFreeOperator(){
-		List<Operator> freeOperators = callCenter.getOperators().stream().filter(Operator::isAvailable).collect(
-				Collectors.toList());
-		return Optional.ofNullable(freeOperators.get(0));
+	public Optional<Operator> findFreeOperator() {
+		Optional<Operator> operator = Optional.empty();
+		List<Operator> freeOperators = callCenter.getOperators().stream().filter(Operator::isAvailable)
+				.collect(Collectors.toList());
+		if (!freeOperators.isEmpty()) {
+			operator = Optional.of(freeOperators.get(0));
+		}
+		return operator;
 	}
 
-	public Optional<Manager> findManager(){
-		return Optional.of(callCenter.getManager());
+	public Optional<Manager> findFreeManager() {
+		Optional<Manager> manager = Optional.empty();
+		if (callCenter.getManager().isAvailable()) {
+			manager = Optional.of(callCenter.getManager());
+		}
+		return manager;
 	}
 
 }

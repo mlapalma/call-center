@@ -1,5 +1,6 @@
 package service;
 
+import model.Call;
 import model.Employee;
 
 public class DefaultEmployeeService implements EmployeeService {
@@ -11,26 +12,27 @@ public class DefaultEmployeeService implements EmployeeService {
 	}
 
 	@Override
-	public boolean assignCall() {
+	public boolean assignCall(Call call) {
 		boolean callAssigned;
-		if (employee.isAvailable()){
-			employee.answerCall();
-			callAssigned=true;
+		if (employee.isAvailable()) {
+			employee.answerCall(call);
+			callAssigned = true;
 		} else {
-			callAssigned=false;
+			callAssigned = false;
 		}
 		return callAssigned;
 	}
 
 	@Override
-	public boolean releaseCall() {
+	public boolean releaseCall(Call call) {
 		boolean callReleased;
-		if(!employee.isAvailable()) {
+		if (!employee.isAvailable()) {
 			employee.setAvailable(true);
-			callReleased=true;
+			callReleased = true;
 		} else {
-			callReleased=false;
+			callReleased = false;
 		}
 		return callReleased;
 	}
+
 }
